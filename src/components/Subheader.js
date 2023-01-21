@@ -6,7 +6,7 @@ function Subheader(props) {
   return (
     <div className={style.head}>
         <Link to='/home'>
-            <img src='images/arrow.png'/>
+            <img src='https://cdn-icons-png.flaticon.com/512/271/271220.png' alt=''/>
         </Link>
         <h3>{props.pageTitle}</h3>
     </div>

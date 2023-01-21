@@ -20,7 +20,7 @@ function AllowNotification() {
             <Link exact to="/home">
               Allow
             </Link>
-            <img src='images/handIcon.svg' className={style.hand_icon}/>
+            <img src='https://cdn-icons-png.flaticon.com/512/636/636047.png' alt='' className={style.hand_icon}/>
         </div>
       </div>
       </div>

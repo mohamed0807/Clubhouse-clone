@@ -8,7 +8,6 @@ function NewRoom(props) {
     const [micMuteVisible,setMicMuteVisible]=useState(false);
     const [itemsVisible,setItemsVisible]=useState(true);
     const card=props.cardDetail;
-    console.log("hello there")
       return (
         
     <div className={style.roomDetailContainer}>
@@ -19,13 +18,13 @@ function NewRoom(props) {
                 onClick={()=>{
                     props.setSheetVisible(false)
                 }}>
-                    <img src='/images/arrow.png' className={style.arrow_icon}/>
+                    <img alt='' src='https://cdn-icons-png.flaticon.com/512/271/271220.png' className={style.arrow_icon}/>
                 </a>
                 <span>Hallway</span>
             </div>
             <div>
                 <AiOutlineFile/>
-                <img className={style.profile_img} src='/images/pro2.jpg'/>
+                <img className={style.profile_img} src='https://i.pinimg.com/736x/30/1c/62/301c62489c327fa359c51b3a5104c680.jpg' alt='profile pic'/>
             </div>
         </div>
     <div className={style.roomDetailCard}>
@@ -41,7 +40,7 @@ function NewRoom(props) {
                     ) : (
                         " "
                         )}
-                    <img src='/images/pro2.jpg'/>
+                    <img src='https://i.pinimg.com/736x/30/1c/62/301c62489c327fa359c51b3a5104c680.jpg' alt='profile pic'/>
                         
                     <p>
                     
@@ -58,7 +57,7 @@ function NewRoom(props) {
         <button onClick={()=>{
             props.setSheetVisible(false);
         }}>
-            <img src='/images/hand-peace.png'/>
+            <img src='https://cdn-icons-png.flaticon.com/512/624/624837.png' alt='' />
             Leave Quietly
         </button>
         <div>
@@ -66,7 +65,7 @@ function NewRoom(props) {
                 <AiOutlinePlus/>
             </button>
             <button>
-                <img src='images/stopHandIcon.png'/>
+                <img src='https://cdn-icons-png.flaticon.com/512/3898/3898664.png' alt=''/>
             </button>
             <button onClick={()=>setMicMuteVisible(!micMuteVisible)}>
                 {micMuteVisible?<BsMicMuteFill/>:<BsMicFill/>}

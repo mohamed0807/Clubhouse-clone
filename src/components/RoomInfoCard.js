@@ -14,8 +14,8 @@ function RoomInfoCard() {
                 <h2>{item.sub_title}</h2>
                 <div className={style.roomMembers}>
                     <div>
-                        <img src='images/pro1.jpg'/>
-                        <img src='images/pro2.jpg'/>
+                        <img src='https://i.pinimg.com/564x/30/1c/62/301c62489c327fa359c51b3a5104c680.jpg' alt=''/>
+                        <img src='https://i.pinimg.com/564x/30/1c/62/301c62489c327fa359c51b3a5104c680.jpg' alt=''/>
                     </div>
                     <div>
                         {item.members.map((person)=>(

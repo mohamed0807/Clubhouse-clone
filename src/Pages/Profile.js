@@ -12,7 +12,8 @@ function Profile() {
             <div className={`${exploreStyle.head} text-right mb-0`}>
                 <Link to='/home'>
                     <img 
-                    src='"https://www.freeiconspng.com/uploads/left-arrow-6.jpg"' 
+                    src='https://cdn-icons-png.flaticon.com/512/271/271220.png'
+                    alt='' 
                     className={exploreStyle.arrow_icon}
                     />
                 </Link>
@@ -23,9 +24,9 @@ function Profile() {
                 </div>
             </div>
         </div>
-        <img src='/images/pro2.jpg' className={style.profile_image}/>
-        <h4>Sano Manjiro</h4>
-        <p>@manjirosano</p>
+        <img src='https://i.pinimg.com/564x/30/1c/62/301c62489c327fa359c51b3a5104c680.jpg' alt='' className={style.profile_image}/>
+        <h4>John Doe</h4>
+        <p>@doejohn</p>
         <div className={style.follow}>
             <p>
                 <span>0 </span>Followers
@@ -44,10 +45,10 @@ function Profile() {
            </button>
         </div>
         <div className={style.nominated}>
-            <img src='images/pro2.jpg'/>
+            <img src='https://i.pinimg.com/564x/30/1c/62/301c62489c327fa359c51b3a5104c680.jpg' alt=''/>
             <div>
                 <p>Joined 12-Dec-2022</p>
-                <p>Nominated By <span>Seijiro Atashi</span></p>
+                <p>Nominated By <span>John Doe</span></p>
             </div>
         </div>
         <p>Member of</p>

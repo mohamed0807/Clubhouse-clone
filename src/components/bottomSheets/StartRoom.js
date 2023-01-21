@@ -11,32 +11,32 @@ function StartRoom(props) {
         <button className={style.addTopicBtn}>+Add a Topic</button>
     </div>
     <div className={style.selectRoom}> 
-        <button className={room=="open"?style.active:""}
+        <button className={room==="open"?style.active:""}
         onClick={()=>setRoom("open")}
         >
-            <div className={room=="open"?style.active:""}>
+            <div className={room==="open"?style.active:""}>
                 <FcGlobe/>
             </div>
             Open
         </button>
-        <button className={room=="social"?style.active:""} 
+        <button className={room==="social"?style.active:""} 
         onClick={()=>setRoom("social")}>
-            <div className={room=="social"?style.active:""}>
+            <div className={room==="social"?style.active:""}>
                 <FcGlobe/>
             </div>
             Social
         </button>
 
-        <button className={room=="closed"?style.active:""} 
+        <button className={room==="closed"?style.active:""} 
         onClick={()=>setRoom("closed")}>
-            <div className={room=="closed"?style.active:""}>
+            <div className={room==="closed"?style.active:""}>
                 <FcGlobe/>
             </div>
             Closed
         </button>
     </div>
-    <p>Start a Room  <span>{room=="closed"?'for people I choose':
-    room=="social"?'with people I follow':"open to everyone"}</span></p>
+    <p>Start a Room  <span>{room==="closed"?'for people I choose':
+    room==="social"?'with people I follow':"open to everyone"}</span></p>
     <div className='text-center'>
         <button className={style.letGoBtn} 
         onClick={()=>{

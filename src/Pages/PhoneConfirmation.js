@@ -8,7 +8,7 @@ function PhoneConfirmation() {
     return (
     <div className={style.phoneConfirmationContainer}>
       <Link exact to="/" className={style.backBtn} >
-        <img src='images/arrow.png'/>
+        <img src='https://cdn-icons-png.flaticon.com/512/271/271220.png' alt=''/>
       </Link>
       <h1>Enter Your Number </h1>
       <PhoneInput international defaultCountry='US' value={value} onChange={setValue}/>
@@ -17,7 +17,7 @@ function PhoneConfirmation() {
       Thanks!
       </p>
       <Link exact to='/code_confirm' className='primaryBtn d-flex align-items:center'>
-        Next <img src='images/nextArrowIcon.svg' className='ml-1'/>
+        Next <img style={{height:'20px',marginTop:'5px',paddingLeft:"5px"}} src='https://cdn-icons-png.flaticon.com/512/271/271228.png' alt='' className='ml-1'/>
       </Link>
     </div>
   )

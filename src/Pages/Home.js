@@ -25,7 +25,7 @@ function Home() {
       style={{
         position:"fixed",top:'0',right:'0',left:'0',bottom:"0",display:'flex',alignItems:"center",justifyContent:"center",
       }}>
-      <img src="/images/loader.gif"/>
+      <img src="https://media.tenor.com/NqKNFHSmbssAAAAi/discord-loading-dots-discord-loading.gif" alt='' style={{height:"20px",width:"20px"}} />
       </div>
     ):( " " )}
       <Header/>

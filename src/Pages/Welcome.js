@@ -24,7 +24,7 @@ function Welcome() {
           to="/invite" 
           className="primaryBtn d-flex align-items-center mb-3">
             Get Your Username{" "}
-            {/* <img src=""></img> */}
+            {/* <img src="https://i.pinimg.com/564x/30/1c/62/301c62489c327fa359c51b3a5104c680.jpg" alt=""></img> */}
         </Link>
         <Link>
           Have an invite text? Sign in
