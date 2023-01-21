@@ -1,0 +1,154 @@
+.exploreContainer {
+    padding: 0 0.5em;
+    height: 100%;
+    overflow: auto;
+    padding-top: 5.2em;
+
+}
+.exploreContainer h6 {
+    font-size: 0.975em;
+    font-weight: 700;
+    color: #a19393;
+    margin: 1.5em 0 0.5em 0;
+}
+.showMore {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f4f4f4 !important;
+    border: none !important;
+    color: #706767 !important;
+    box-shadow: 0px 2px 3px;
+    font-weight: 700 !important;
+
+}
+
+.showMore span {
+    font-size: 0.775em !important;
+    margin-top: 0.4em;
+    margin-left: 0.5em;
+    /* background-color: red; */
+}
+
+/* .head img {
+    width: 15px;
+    position: absolute;
+    left: 0px;
+    top:50%;
+    transform: translateY(-50%);
+} */
+
+.peopleContainer img {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius:1.1em ;
+}
+
+.peopleContainer {
+    background-color: #ffffff;
+    margin:0 -0.5em ;
+    padding:0.5em 0.5em 1.5em 0.5em;
+    position: relative;
+}
+
+.peopleContainer  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+.peopleContainer h5 {
+    color: var(--textColor);
+    font-size: 1.1em;
+    margin-bottom: 0.2em;
+    margin-left:10px;
+}
+.peopleContainer p {
+    color: var(--textColor);
+    font-size: 0.9em;
+    margin: 0;
+    display: block;
+    width: 173px;
+    height: fit-content;
+    line-height: 1.15;
+    -webkit-line-clamp:2 ;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #7f7070;
+    margin-left: 10px;
+}
+.peopleContainer button {
+    background-color: rgb(76, 55, 20);
+    border: 2px solid rgb(17, 16, 16);
+    border-radius: 2em;
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 7px;
+    color: rgb(249, 250, 251);
+    padding-left:20px ;
+    font-size: 1em;
+    font-weight: 600;
+    padding-right: 20px;
+}
+.conversationCard {
+    /* width: 45%; */
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    box-shadow: 0px 2px 3px;
+}
+.concon {
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+}
+
+.conversationCard h6 {
+    color: var(--textColor);
+    margin: 0;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+.conversationCard h6 span {
+    margin-right: 0.2em;
+}
+.conversationCard p {
+    margin: 0;
+    color: #aaaaaa;
+    list-style: 1.2;
+    font-size: 0.8em;
+}
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    background-color: #f2f0e4;
+    /* background-color: red; */
+    z-index: 5;
+    padding: 0.5em;
+
+}
+.head {
+    text-align: center;
+    padding: 0.5em 0.5em;
+    position: relative;
+    margin-bottom: 0.5em;
+
+}
+.header img {
+    position: absolute;
+    width: 15px;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.head h3 {
+    margin:0 ;
+    font-size: 1.2em;
+}

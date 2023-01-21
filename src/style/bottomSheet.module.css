@@ -1,0 +1,98 @@
+.container {
+    background-color: red;
+    width: 500px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.SwipeContainer {
+    width:500px ;
+}
+.bottomSheetContainer {
+    
+    width: 100%;
+    max-width: 100%;
+    border-radius: 1.5em;
+    padding: 1.5em 1em;
+    position: relative;
+    height: 100%;
+    text-align: end;
+    background-color: rgb(247, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: none; */
+}
+.switch_Line {
+    position: absolute;
+    top:6px; 
+    /* left: 39%; */
+    text-align: center;
+    transform: translateX("-50%");
+    height: 4px;
+    width: 100px;
+    background-color: #856464;
+}
+.addTopicBtn {
+    background-color: transparent;
+    border: none;
+    color: #214430;
+}
+.selectRoom {
+    border-bottom: 1px solid #cccccc;
+    padding: 1.5em 0;
+    display:flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 60px;
+    /* background-color: black; */
+
+}
+.selectRoom {
+    border: none;
+    background-color: transparent;
+    border-radius: 1em;
+    padding:20px;
+    color: var(--textColor);
+    line-height: 1.2;
+}
+.selectRoom button {
+    padding:15px 15px 5px 15px ;
+    border-radius: 15px;
+}
+.selectRoom button.active {
+    border: 1px solid rgb(5, 35, 34);
+    background-color: rgb(49, 57, 59);
+    font-weight: 700;
+    color: white;
+}
+.selectRoom button div.active {
+    background-color: rgb(182, 202, 182);
+}
+.selectRoom button div {
+    display: flex;
+    align-items: center;
+    background-color: rgb(45, 53, 45);
+    border-radius: 50%;
+}
+.selectRoom button svg {
+    font-size: 4em;
+    font-weight: 700;
+}
+.bottomSheetContainer p {
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+.letGoBtn {
+    font-size: 1.3em;
+    font-weight: 700;
+    border-radius:2em;
+    color: white;
+    background-color: rgb(74, 88, 74);   
+    padding: 0.3em 2em;
+    text-align: center;
+}
